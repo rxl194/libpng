@@ -1,4 +1,6 @@
+
 # CMakeLists.txt
+# Cmake Version 2.6.2
 
 # Copyright (C) 2007-2015 Glenn Randers-Pehrson
 
@@ -111,7 +113,7 @@ endif()
 # NOW BUILD OUR TARGET
 include_directories(${CMAKE_CURRENT_SOURCE_DIR} ${ZLIB_INCLUDE_DIR})
 
-unset(PNG_LIB_TARGETS)
+# unset(PNG_LIB_TARGETS)
 
 if(PNG_SHARED)
   add_library(${PNG_LIB_NAME} SHARED ${libpng_sources})

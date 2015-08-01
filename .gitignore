@@ -1,0 +1,15 @@
+*.autosave
+*.pyc
+*.user
+*~
+.*.swp
+.DS_Store
+.sw[a-z]
+tags
+tegra/
+MSys/
+NB_libpng/
+VS10/
+Fedora/
+Ubuntu/
+VS13_x86/
